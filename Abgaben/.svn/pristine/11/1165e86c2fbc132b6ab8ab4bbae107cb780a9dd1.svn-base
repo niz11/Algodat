@@ -1,0 +1,32 @@
+nizan.goldstein,  11.07.2017, 08:07:36
+Korrektur Blatt 10
+
+Aufgabe 1.6
+	Testing complete pipeline: 0/15
+	  java.lang.AssertionError: Incorrect distance computed for the following input signals:
+		x = [3, 9, 6, 8, 10]
+		y = [8, 4, 3, 2, 4] expected:<true> but was:<false>
+	Testing computeDistance: 0/10
+	  java.lang.AssertionError: Incorrect distance computed for the following input signals:
+		x = [5, 6, 2, 7, 1, 7, 9, 1]
+		y = [1, 9, 8, 6, 3, 6, 10, 5, 3] expected:<true> but was:<false>
+	Testing computeDistanceMatrix: 0/15
+	  java.lang.AssertionError: computeDistanceMatrix caused an Exception: "5" for the following input signals:
+		x = [1, 9, 4, 2, 8]
+		y = [8, 5, 1, 10, 8, 5, 4, 2, 2]
+	Testing computeMatchingPath: 0/20
+	  java.lang.AssertionError: Path list is null expected object to not be null
+	Testing initializeAccDistanceMatrix: 0/10
+	  java.lang.AssertionError: Incorrect dimensions for the following input signals:
+		x = [3, 1, 8, 2, 10]
+		y = [7, 10, 2, 2, 5, 7, 4] expected:<true> but was:<false>
+Total points for Aufgabe 1.6: 0/70
+
+Aufgabe 1.7
+	Check Close Match: 0/15
+	  java.lang.AssertionError: lookup returns null expected object to not be null
+	Check Perfect Match: 0/15
+	  java.lang.AssertionError: lookup returns null expected object to not be null
+Total points for Aufgabe 1.7: 0/30
+
+Total points: 0/100

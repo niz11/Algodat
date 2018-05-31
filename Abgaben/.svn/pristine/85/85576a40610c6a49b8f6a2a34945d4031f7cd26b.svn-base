@@ -1,0 +1,47 @@
+nizan.goldstein,  18.05.2017, 08:15:39
+Korrektur Blatt 2
+
+Aufgabe 1.7
+	Test the Surface computation: 4/4
+	Test the Volume computation: 4/4
+	Test that cuboid inherits from Body: 5/5
+	Test x,y,z constructor: 5/5
+	Test negative parameters for constructor: 0/2
+	  java.lang.AssertionError: Creating a cuboid with negativ height is not possible. In this case you set the negative inputs to a default value 1 or throw an Exception. Please check your constructor.  expected:<1.0> but was:<-5.0>
+Total points for Aufgabe 1.7: 18/20
+
+Aufgabe 1.8
+	Test the Surface computation: 4/4
+	Test the Volume computation: 4/4
+	Test that cuboid inherits from Body: 5/5
+	Test x,y,z constructor: 5/5
+	Test constructor with negative value: 0/2
+	  java.lang.AssertionError: Creating a cube with negative length is not possible. In this case you set the negative values to a default value 1 or throw an Exception. Please check your constructor.  expected:<1.0> but was:<-42.0>
+Total points for Aufgabe 1.8: 18/20
+
+Aufgabe 2.3
+	repairPicture() - Repairing one white pixel on the side: 3/3
+	repairPicture() - Repairing one white pixel on the side: 2/2
+	repairPicture() - Repairing one white pixel in a black picture: 5/5
+	repairPicture() - Repairing multiple pixel in a multi color picture - Checking if they average colors: 0/5
+	  java.lang.AssertionError: FAILURE: repairPicture() - Repairing multiple pixel in a multi color picture - Checking for correct average color. Pixel Color: (1098,716,971) Expected Color: (127,91,191) expected:<true> but was:<false>
+	repairPicture() - Repairing one white pixel on the corner: 0/5
+	  java.lang.ArrayIndexOutOfBoundsException: -1
+	repairPicture() - Repairing one white pixel in a multi color picture - Checking if they average colors: 0/10
+	  java.lang.AssertionError: FAILURE: repairPicture() - Repairing one white pixel in a multi color picture - Checking for correct average color. Pixel Color: (327,318,430) Expected Color: (106,136,147) expected:<true> but was:<false>
+Total points for Aufgabe 2.3: 10/30
+
+Aufgabe 2.4
+	rot90DegRight() - Rotating a 120x100 picture right: 5/5
+	rot90DegRight() - Rotating a 100x120 picture (right or left): 5/5
+	rot90DegRight() - Rotating a 100x100 picture with one white pixel (right only): 5/5
+	rot90DegRight() - Rotating a 4x5 picture with one white pixel (right or left) and print result: 0/0
+	rot90DegRight() - Rotating a 100x100 picture with one white pixel (right or left): 5/5
+	rot90DegRight() - Rotating a 4x4 picture with one white pixel (right or left) and print result: 0/0
+Total points for Aufgabe 2.4: 20/20
+
+Aufgabe 2.5
+	rot180Deg() - Rotating a 90*120 picture 180deg: 10/10
+Total points for Aufgabe 2.5: 10/10
+
+Total points: 76/100

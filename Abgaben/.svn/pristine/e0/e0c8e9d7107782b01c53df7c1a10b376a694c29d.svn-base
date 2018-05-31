@@ -1,0 +1,25 @@
+nizan.goldstein,  11.07.2017, 16:07:49
+Korrektur Blatt 10
+
+Aufgabe 1.6
+	Testing computeDistanceMatrix: 15/15
+	Testing computeMatchingPath: 20/20
+	Testing initializeAccDistanceMatrix: 10/10
+	Testing complete pipeline: 0/15
+	  java.lang.AssertionError: Exception occurred somewhere in the whole process: "7" for the following input signals:
+		x = [8, 1, 1, 9, 1, 1, 4]
+		y = [10, 7, 6, 9, 7, 5]
+	Testing computeDistance: 0/10
+	  java.lang.AssertionError: computeDistance caused an Exception: "9" for the following input signals:
+		x = [3, 9, 3, 6, 8, 2, 4, 5, 6]
+		y = [10, 1, 4, 7, 10]
+Total points for Aufgabe 1.6: 45/70
+
+Aufgabe 1.7
+	Check Close Match: 0/15
+	  java.lang.AssertionError: lookup returns null expected object to not be null
+	Check Perfect Match: 0/15
+	  java.lang.AssertionError: lookup returns null expected object to not be null
+Total points for Aufgabe 1.7: 0/30
+
+Total points: 45/100

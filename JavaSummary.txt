@@ -1,0 +1,24 @@
+Let's say you wanted to use a few
+
+different classes from the java.util package: ArrayList and TreeSet. You can
+
+add a wildcard character (*) to your import statement that means, "If you see a
+
+reference to a class you're not sure of, you can look through the entire package for
+
+that class," like so:
+
+import java.util.*;
+
+public class MyClass {
+
+public static void main(String[] args) {
+
+ArrayList<String> a = new ArrayList<String>();
+
+TreeSet<String> t = new TreeSet<String>();
+
+}
+
+}
+

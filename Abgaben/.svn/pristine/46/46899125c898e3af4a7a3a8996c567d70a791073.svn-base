@@ -1,0 +1,19 @@
+nizan.goldstein,  12.07.2017, 08:08:55
+Korrektur Blatt 10
+
+Aufgabe 1.6
+	Testing complete pipeline: 15/15
+	Testing computeDistance: 10/10
+	Testing computeDistanceMatrix: 15/15
+	Testing computeMatchingPath: 20/20
+	Testing initializeAccDistanceMatrix: 10/10
+Total points for Aufgabe 1.6: 70/70
+
+Aufgabe 1.7
+	Check Close Match: 0/15
+	  java.lang.AssertionError: Database did not return closest match expected:<2> but was:<null>
+	Check Perfect Match: 0/15
+	  java.lang.AssertionError: Database did not return closest match expected:<1> but was:<null>
+Total points for Aufgabe 1.7: 0/30
+
+Total points: 70/100
